@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layout"
+    tools:context=".fragment.SekolahFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:src="@drawable/illustrasi_idn"
+            android:scaleType="centerCrop"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="153dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="100dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp">
+                <TextView
+                    android:id="@+id/nama_sekolah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IDN Boarding School"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/title_npsn"
+                    android:layout_below="@id/nama_sekolah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NPSN"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="32dp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/subtitle_npsn"
+                    android:layout_below="@id/title_npsn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0101001"
+                    android:textSize="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/title_alamat"
+                    android:layout_below="@id/subtitle_npsn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="32dp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/subtitle_alamat"
+                    android:layout_below="@id/title_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jl. Raya Dayeuh, Sukanegara, Kec. Jonggol, Bogor, Jawa Barat 16830"
+                    android:textSize="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/title_telepon"
+                    android:layout_below="@id/subtitle_alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Telepon"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="32dp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/subtitle_telepon"
+                    android:layout_below="@id/title_telepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0859 2410 4002"
+                    android:textSize="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/title_website"
+                    android:layout_below="@id/subtitle_telepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Website"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="32dp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/subtitle_website"
+                    android:layout_below="@id/title_website"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="idn.sch.id"
+                    android:textSize="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/title_sosmed"
+                    android:layout_below="@id/subtitle_website"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Website"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginTop="32dp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/facebook"
+                    android:layout_below="@id/title_sosmed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="fb.com/idn"
+                    android:textSize="15sp"
+                    android:drawableStart="@drawable/logos_facebook"
+                    android:drawablePadding="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/instagram"
+                    android:layout_below="@id/facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="ig.com/smkidn"
+                    android:textSize="15sp"
+                    android:drawableStart="@drawable/instagram"
+                    android:drawablePadding="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/twitter"
+                    android:layout_below="@id/instagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="twitter.com/smk_idn"
+                    android:textSize="15sp"
+                    android:drawableStart="@drawable/logos_twitter"
+                    android:drawablePadding="15sp"
+                    android:paddingStart="25dp"
+                    android:textColor="@android:color/black" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

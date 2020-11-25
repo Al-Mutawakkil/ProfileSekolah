@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_gallery"
+        android:title="Gallery"
+        android:icon="@drawable/galeri"/>
+
+    <item
+        android:id="@+id/navigation_founder"
+        android:title="Founder"
+        android:icon="@drawable/founder"/>
+
+    <item
+        android:id="@+id/navigation_sekolah"
+        android:title="Sekolah"
+        android:icon="@drawable/sekolah"/>
+
+    <item
+        android:id="@+id/navigation_prestasi"
+        android:title="Prestasi"
+        android:icon="@drawable/prestasi"/>
+    <item
+        android:id="@+id/navigation_ekskul"
+        android:title="Ekskul"
+        android:icon="@drawable/ekskul"/>
+
+</menu>

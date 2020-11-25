@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363848662364",
+    "firebase_url": "https://profilsekolah-8315c.firebaseio.com",
+    "project_id": "profilsekolah-8315c",
+    "storage_bucket": "profilsekolah-8315c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363848662364:android:aa3df50b4b2986f1e01599",
+        "android_client_info": {
+          "package_name": "com.tugas.profilesekolah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363848662364-c9ffjunj8osj84nq9pugmv5db1e2lua3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tugas.profilesekolah",
+            "certificate_hash": "ed8da3c32e664793b4810a4be46e97847cbdb095"
+          }
+        },
+        {
+          "client_id": "363848662364-upg45qo7cctcuk4k47lg5nfsukbtfgec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMErgTT8HwMEPuy2VFrmeGkWnoCCn8fPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363848662364-upg45qo7cctcuk4k47lg5nfsukbtfgec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
